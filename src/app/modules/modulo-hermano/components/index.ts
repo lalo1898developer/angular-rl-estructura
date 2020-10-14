@@ -1,0 +1,1 @@
+export { ComponenteUnoComponent } from './componente-uno/componente-uno.component';
