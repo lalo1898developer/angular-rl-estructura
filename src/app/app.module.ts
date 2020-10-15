@@ -17,6 +17,7 @@ import {
 } from './modules';
 import { ModuloChingonModule } from './modulo-chingon/modulo-chingon.module';
 import { EduardoModule } from './eduardo/eduardo.module';
+import { Eduardo2Module } from './eduardo2/eduardo2.module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { EduardoModule } from './eduardo/eduardo.module';
     ChartsModule,
     ModuloChingonModule,
     EduardoModule,
+    Eduardo2Module,
   ],
   providers: [],
   bootstrap: [AppComponent]
