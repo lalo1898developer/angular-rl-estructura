@@ -15,6 +15,7 @@ import {
   ModuloHijoModule,
   ModuloHermanoModule
 } from './modules';
+import { EduardoModule } from './eduardo/eduardo.module';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import {
     ModuloHermanoModule,
     AppRoutingModule,
     ChartsModule,
+    EduardoModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
